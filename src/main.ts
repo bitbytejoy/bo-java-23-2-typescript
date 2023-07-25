@@ -57,6 +57,9 @@ import './style.css'
     const x = y || z;
     // x is "Hello"
 
+    const car = { id: "1", brand: "BMW", model: "3er" };
+    const car2 = { ...car, model: "6er" }; // Copy all properties from car, then override model with a new value
+
     Control flow:
         if (0) {} else if (condition) {} else {}
         const list = [1,2,3];
